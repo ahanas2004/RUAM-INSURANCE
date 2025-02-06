@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RUAM INSURANCE</title>
+    <link rel="icon" href="/assets/logo/logo1.png" width="50">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="claims.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="site-header">
+      <div class="site-header__top">
+        <div class="wrapper site-header__wrapper">
+          <div class="site-header__middle">
+            <a href="/index.html" rel="home">
+              <img src="/assets/logo/logo1.png" alt="Site Logo" class="site-logo">
+          </a>
+          
+          </div>
+          <div class="site-header__end top">
+            <div class="button-container email-container">
+              <div class="icon">
+                <!-- Email icon SVG here -->
+                <svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Email">
+                  <path d="M21 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM21 6l-9 6-9-6V6l9 6 9-6v0zm-9 8.25l-7.5-5v9.75H4.5V8.25l7.5 5 7.5-5v9.75h-3z" />
+                </svg>
+              </div>
+              <div class="text-container">
+                <div class="text">Email</div>
+                <div class="email-address">
+                  <a href="mailto:support@ruaminsurance.com" class="email-link">support@ruaminsurance.in</a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="button-container policies-container">
+              <div class="icon">
+                <!-- Get Policies icon SVG here -->
+                <svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Get Policies">
+                  <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H4v-1h16v1zm0-3H4v-1h16v1zm0-3H4v-1h16v1zm0-3H4V8h16v1zm0-3H4V5h16v1z" />
+                </svg>
+              </div>
+              <div class="text-container">
+                <div class="text">Get Policies</div>
+                <div class="phone-number">
+                  <a href="tel:+917904960769" class="phone-link">+91 7904960769</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-header__bottom">
+        <div class="wrapper site-header-bottom-wrapper">
+          <div class="site-header__start">
+            <nav class="nav">
+              <button class="nav__toggle" aria-expanded="false" type="button">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+              </button>
+              
+              <ul class="nav__wrapper">
+                <li class="nav__item"><a href="/about-us/aboutus.html">About Us</a></li>
+                <li class="nav__item"><a href="/sevices/services.html">Services</a></li>
+                <li class="nav__item"><a href="/contact-us/contactus.html">Contact Us</a></li>
+                <li class="nav__item"><a href="/claims/claims.html">Claims</a></li>
+                <li class="nav__item"><a href="/index.html">Home</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+          <div class="site-header__end bottom">
+            <div class="social-media">
+              <a href="https://www.facebook.com/share/aWGQE5PpMJyP7bsD/?mibextid=qi2Omg" target="_blank" class="social-icon">
+                <svg
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-label="Facebook"
+                >
+                  <path
+                    d="M12 2.04c-5.52 0-10 4.48-10 10 0 5 3.66 9.13 8.44 9.87v-6.98h-2.54v-2.89h2.54v-2.18c0-2.52 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.83h2.77l-.44 2.89h-2.33v6.98c4.78-.74 8.44-4.87 8.44-9.87 0-5.52-4.48-10-10-10z"
+                  />
+                </svg>
+              </a>
+              <a href="https://whatsapp.com/channel/0029VajogpP002T6WTeSJ018" target="_blank"  class="social-icon">
+                <svg
+                 version="1.1"
+                 viewBox="0 0 32 32"
+                 xmlns="http://www.w3.org/2000/svg"
+                 aria-label="WhatsApp"
+                 >
+                 <path
+                  d="M16 1.344c-8.088 0-14.656 6.568-14.656 14.656 0 2.584 0.672 5.128 1.952 7.344l-2.12 7.712 7.896-2.064c2.152 1.136 4.6 1.752 7.056 1.752 8.088 0 14.656-6.568 14.656-14.656s-6.568-14.656-14.656-14.656zM16 27.688c-2.28 0-4.504-0.584-6.456-1.696l-0.456-0.256-4.696 1.224 1.232-4.6-0.28-0.472c-1.2-1.944-1.832-4.192-1.832-6.472 0-7.088 5.768-12.856 12.856-12.856 7.088 0 12.856 5.768 12.856 12.856s-5.768 12.856-12.856 12.856z"
+                  />
+                  <path
+                  d="M22.472 18.952c-0.344-0.176-2.024-1-2.344-1.12-0.312-0.12-0.536-0.176-0.76 0.176-0.224 0.344-0.872 1.12-1.072 1.344-0.2 0.224-0.392 0.248-0.736 0.072-0.344-0.176-1.456-0.536-2.776-1.704-1.024-0.912-1.72-2.032-1.92-2.376-0.2-0.344-0.008-0.528 0.152-0.704 0.16-0.16 0.344-0.392 0.512-0.592 0.168-0.2 0.224-0.344 0.336-0.568 0.112-0.224 0.056-0.424-0.024-0.592-0.08-0.176-0.76-1.84-1.04-2.536-0.272-0.656-0.552-0.568-0.76-0.576-0.192-0.008-0.408-0.008-0.624-0.008s-0.592 0.08-0.904 0.392c-0.312 0.312-1.192 1.16-1.192 2.824s1.224 3.272 1.392 3.496c0.168 0.224 2.408 3.672 5.848 5.048 0.816 0.344 1.448 0.552 1.944 0.704 0.816 0.256 1.56 0.216 2.152 0.128 0.656-0.096 2.024-0.824 2.312-1.616 0.288-0.792 0.288-1.472 0.2-1.616-0.088-0.152-0.312-0.248-0.656-0.424z"
+                  />
+               </svg>
+
+              </a>
+              <a href="https://www.instagram.com/ruaminsurance?igsh=MTc0YmdlaWt0bDFuMw==" target="_blank"  class="social-icon">
+                <svg
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-label="Instagram"
+                >
+                  <path
+                    d="M12 2.16c3.2 0 3.584.012 4.85.07 1.17.054 1.8.24 2.22.4a4.41 4.41 0 011.54.9 4.41 4.41 0 01.9 1.54c.16.42.346 1.05.4 2.22.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.24 1.8-.4 2.22a4.41 4.41 0 01-.9 1.54 4.41 4.41 0 01-1.54.9c-.42.16-1.05.346-2.22.4-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.8-.24-2.22-.4a4.41 4.41 0 01-1.54-.9 4.41 4.41 0 01-.9-1.54c-.16-.42-.346-1.05-.4-2.22-.058-1.266-.07-1.65-.07-4.85s.012-3.584.07-4.85c.054-1.17.24-1.8.4-2.22a4.41 4.41 0 01.9-1.54 4.41 4.41 0 011.54-.9c.42-.16 1.05-.346 2.22-.4 1.266-.058 1.65-.07 4.85-.07zm0-2.16c-3.287 0-3.7.012-4.99.072-1.296.06-2.188.27-2.95.57a6.56 6.56 0 00-2.37 1.53 6.56 6.56 0 00-1.53 2.37c-.3.762-.51 1.654-.57 2.95-.06 1.29-.072 1.703-.072 4.99s.012 3.7.072 4.99c.06 1.296.27 2.188.57 2.95a6.56 6.56 0 001.53 2.37 6.56 6.56 0 002.37 1.53c.762.3 1.654.51 2.95.57 1.29.06 1.703.072 4.99.072s3.7-.012 4.99-.072c1.296-.06 2.188-.27 2.95-.57a6.56 6.56 0 002.37-1.53 6.56 6.56 0 001.53-2.37c.3-.762.51-1.654.57-2.95.06-1.29.072-1.703.072-4.99s-.012-3.7-.072-4.99c-.06-1.296-.27-2.188-.57-2.95a6.56 6.56 0 00-1.53-2.37 6.56 6.56 0 00-2.37-1.53c-.762-.3-1.654-.51-2.95-.57-1.29-.06-1.703-.072-4.99-.072z"
+                  />
+                  <path
+                    d="M12 5.84a6.16 6.16 0 100 12.32 6.16 6.16 0 000-12.32zm0 10.16a4 4 0 110-8 4 4 0 010 8zm6.4-12.4a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-icon">
+                <svg
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-label="LinkedIn"
+                >
+                  <path
+                    d="M20.45 2h-16.9c-.98 0-1.77.79-1.77 1.77v16.45c0 .98.79 1.77 1.77 1.77h16.9c.98 0 1.77-.79 1.77-1.77v-16.45c0-.98-.79-1.77-1.77-1.77zm-12.4 18.21h-3.18v-10.39h3.18v10.39zm-1.58-11.85h-.02c-1.06 0-1.75-.73-1.75-1.64 0-.93.71-1.64 1.78-1.64s1.75.71 1.75 1.64c0 .9-.68 1.64-1.76 1.64zm13.42 11.85h-3.18v-5.62c0-1.41-.5-2.37-1.75-2.37-.95 0-1.51.64-1.76 1.26-.09.22-.11.53-.11.83v5.9h-3.18s.04-9.63 0-10.39h3.18v1.48c-.01.02-.02.04-.03.06h.03v-.06c.42-.65 1.17-1.58 2.84-1.58 2.07 0 3.63 1.35 3.63 4.24v6.77z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+
+    <section class="main-heading">
+        <div class="container">
+            <h1 class="custom-heading">Claims</h1>
+        </div>
+    </section>
+
+
+    <section class="claim-section">
+      <div class="container">
+        <!-- Health Insurance Section -->
+        <div class="title">
+          <h1>Understanding Health Insurance Claims</h1>
+          <p>
+            A reimbursement claim involves initially paying for claim expenses out of your own pocket. Subsequently, you can seek reimbursement from your health insurance provider by submitting all the required documentation. This process is necessary when you receive treatment at a hospital that is not included in your insurer's network or if you miss the opportunity for a cashless claim.
+          </p>
+          <p>
+            When filing a reimbursement claim, it is crucial to be aware of the specifics of your health insurance policy, including the coverage details for treatment and associated expenses. If the treatment or expenses are not covered under your policy, your claim may be rejected. Ensuring thorough understanding and proper documentation is essential for a smooth reimbursement process.
+          </p>
+        </div>
+        <div class="claim-info">
+          <div class="claim-text">
+            <h2>Comparing Reimbursement Claims to Cashless Claims</h2>
+            <p>
+              Processing times for reimbursement claims are typically longer compared to cashless claims. In a reimbursement claim, you must gather and submit all necessary documents and bills related to your claim. In contrast, a cashless claim is facilitated directly by the empanelled hospital, which handles the submission of documents and bills to your insurance company.
+            </p>
+            <p>
+              With reimbursement claims, you will need to cover the initial expenses yourself and await reimbursement from your insurance provider. On the other hand, cashless claims are settled directly between the insurance company and the hospital, leaving you responsible only for any policy exclusions or amounts exceeding your sum insured.
+            </p>
+          </div>
+          <div class="claim-image">
+            <img src="/assets/claims page/insurance claim.jpg" alt="Health Insurance Claim Illustration">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="steps-section">
+      <div class="container">
+        <h2>When Should You Notify Us About Your Health Insurance Claim?</h2>
+        <p>
+          For planned claims, it is advisable to inform us at least two days prior to admission. In the case of an emergency claim, notification should be made within 24 hours of your admission to ensure timely processing of your claim.
+        </p>
+        
+        <h2>Steps to File a Health Insurance Claim</h2>
+        <ol>
+          <li><strong>Step 1:</strong> Notify Us About Your Claim<br>
+            Contact us via our customer care number +91 97108 91447 or email us at <a href="mailto:support@ruaminsurance.in">support@ruaminsurance.in</a>
+          </li>
+          <li><strong>Step 2:</strong> Prepare Your Documentation<br>
+            After settling your hospital expenses, organize all relevant documents in chronological order. Include original bills for consultations, diagnostic tests, and any other medical expenses. Also, provide your discharge summary, medical reports, and hospital bills.
+          </li>
+          <li><strong>Step 3:</strong> Complete and Submit the Claim Form<br>
+            Download the claim form from our website. Print the form and fill out the necessary sections. Sign the form and obtain the physician’s signature as well. Submit the form with the required documents.
+          </li>
+          <li><strong>Step 4:</strong> Review and Processing of Your Claim<br>
+            We will review your claim request and notify you if any additional documents are needed. Once approved, the claim amount will be transferred to your bank account.
+          </li>
+        </ol>
+      </div>
+    </section>
+    
+    <hr>
+    
+    <section class="claim-section">
+      <div class="container">
+        <!-- Marine Insurance Section -->
+        <div class="title">
+          <h1>Understanding Marine Insurance Claims</h1>
+          <p>
+            A marine insurance claim involves reporting any loss or damage incurred during the transport of goods by sea, air, or land. To file a claim, you must provide all relevant documentation, including shipping invoices, insurance certificates, and reports of loss or damage.
+          </p>
+          <p>
+            Marine insurance claims often include general average, salvage charges, or damage to cargo due to weather or accidents. It’s crucial to be aware of the specific coverage under your marine insurance policy and submit the proper documents to avoid claim rejections.
+          </p>
+        </div>
+        <div class="claim-info">
+          <div class="claim-text">
+            <h2>Key Differences Between Marine and Other Insurance Claims</h2>
+            <p>
+              Marine insurance claims may involve complex scenarios such as general average, where all parties in a shipping venture share losses. Unlike health or motor claims, marine claims often require a thorough investigation of shipping documents and damage reports.
+            </p>
+          </div>
+          <div class="claim-image">
+            <img src="/assets/claims page/marine claim.jpg" alt="Marine Insurance Claim Illustration">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="steps-section">
+      <div class="container">
+        <h2>When Should You Notify Us About Your Marine Insurance Claim?</h2>
+        <p>
+          Notify us within 24 hours of discovering any damage or loss to the insured cargo or vessel. Timely notification helps ensure a swift claims process.
+        </p>
+        
+        <h2>Steps to File a Marine Insurance Claim</h2>
+        <ol>
+          <li><strong>Step 1:</strong> Notify Us About Your Claim<br>
+            Contact us via our customer care number +91 97108 91447 or email us at <a href="mailto:support@ruaminsurance.in">support@ruaminsurance.in</a>
+          </li>
+          <li><strong>Step 2:</strong> Gather Documentation<br>
+            Provide shipping invoices, damage reports, bills of lading, insurance certificates, and any other relevant documents.
+          </li>
+          <li><strong>Step 3:</strong> Complete and Submit the Claim Form<br>
+            Submit the completed marine claim form with all the necessary documents, including original reports of survey and estimates for repair.
+          </li>
+          <li><strong>Step 4:</strong> Claim Processing<br>
+            Your claim will be reviewed, and you will receive regular updates. Upon approval, the reimbursement will be made as per your policy’s terms.
+          </li>
+        </ol>
+      </div>
+    </section>
+    
+    <hr>
+    
+    <section class="claim-section">
+      <div class="container">
+        <!-- Motor Insurance Section -->
+        <div class="title">
+          <h1>Understanding Motor Insurance Claims</h1>
+          <p>
+            Motor insurance claims involve seeking compensation for damage or loss to your insured vehicle due to an accident, theft, or natural disaster. It is essential to submit all required documents to file your claim successfully.
+          </p>
+          <p>
+            Be mindful of the specific coverage offered under your motor insurance policy. Claims for certain damages or situations may not be covered, and submitting complete documentation will help prevent delays or rejections.
+          </p>
+        </div>
+        <div class="claim-info">
+          <div class="claim-text">
+            <h2>Key Differences Between Motor and Other Insurance Claims</h2>
+            <p>
+              Motor insurance claims focus on vehicle damage and often require a police report and repair estimates. Unlike health or marine insurance, motor claims involve assessing physical damage to your vehicle and may require inspections.
+            </p>
+          </div>
+          <div class="claim-image">
+            <img src="/assets/claims page/motor claim.jpg" alt="Motor Insurance Claim Illustration">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="steps-section">
+      <div class="container">
+        <h2>When Should You Notify Us About Your Motor Insurance Claim?</h2>
+        <p>
+          Notify us as soon as the accident or damage occurs. For theft, report the incident within 24 hours to both the police and our insurance company.
+        </p>
+        
+        <h2>Steps to File a Motor Insurance Claim</h2>
+        <ol>
+          <li><strong>Step 1:</strong> Notify Us About Your Claim<br>
+            Contact us via our customer care number +91 97108 91447 or email us at <a href="mailto:support@ruaminsurance.in">support@ruaminsurance.in</a>
+          </li>
+          <li><strong>Step 2:</strong> Gather Documentation<br>
+            Collect the police report (if applicable), repair estimates, photos of the damage, and any other relevant documents. Ensure the documentation is comprehensive.
+          </li>
+          <li><strong>Step 3:</strong> Complete and Submit the Claim Form<br>
+            Submit the completed motor claim form along with the required documents.
+          </li>
+          <li><strong>Step 4:</strong> Claim Processing<br>
+            After reviewing your claim, we will inform you of its status. Approved claims will be processed promptly, and any deductibles will be communicated.
+          </li>
+        </ol>
+      </div>
+    </section>
+    
+  
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="full">
+      <div class="footer-container">
+        <!-- Company Information Section -->
+        <section class="footer-section">
+          <img src="/assets/logo/logo1.png" alt="Company Logo" class="logo">
+          <p>As Chennai's premier online insurance marketplace, we've helped over 1,500 individuals find and purchase the best insurance plans from the top insurers in the country.</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/aWGQE5PpMJyP7bsD/?mibextid=qi2Omg" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ruaminsurance?igsh=MTc0YmdlaWt0bDFuMw=="><i class="fab fa-instagram"></i></a>
+            <a href="https://whatsapp.com/channel/0029VajogpP002T6WTeSJ018" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </section>
+    
+              <!-- Contact Information Section -->
+              <section class="footer-section ">
+                <h3>Contact Info</h3>
+                <ul>
+                  <li><i class="fas fa-map-marker-alt"></i>New No.134, Old No.264, 3rd Floor, Thambu Chetty Street, Mannady, George Town, Chennai -600001
+                  </li>
+                  <li><i class="fas fa-phone"></i> +91 79049 60769</li>
+                  <li><i class="fas fa-envelope"></i> support@ruaminsurance.in</li>
+                  <li><i class="fas fa-clock"></i> Opening Hours: 9:00 - 18:00</li>
+                </ul>
+              </section>
+    
+        <!-- Services Section -->
+        <section class="footer-section services-section">
+          <h3>Navigation</h3>
+          <ul class="services-list">
+            <li><a href="/index.html" class="service-btn">Home</a></li>
+            <li><a href="/about-us/aboutus.html" class="service-btn">About Us</a></li>
+            <li><a href="/sevices/services.html" class="service-btn">Services</a></li>
+            <li><a href="/claims/claims.html" class="service-btn">Claims</a></li>
+            <li><a href="/contact-us/contactus.html" class="service-btn">Contact Us</a></li>
+          </ul>
+        </section>
+    
+    
+    
+        <!-- Customer Support Section -->
+        <section class="footer-section">
+          <h3>Have a question?</h3>
+          <p>Our friendly customer support team is your extended family. Speak your heart out. They listen with undivided attention to resolve your concerns. Drop us an email, we’re here to help.</p>
+        </section>
+      </div>
+      
+      <!-- Footer Bar -->
+      <div class="footer-bar">
+        <p>&copy; 2024 Ruam-Insurance. All rights reserved.</p>
+        <p>Site made by <a href="https://ahamed-anas-portfolio.netlify.app/">Ahamed Anas</a></p>
+      </div>
+    </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
